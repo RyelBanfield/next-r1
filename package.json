@@ -1,0 +1,26 @@
+{
+  "name": "next-r1",
+  "version": "0.0.1-beta.3",
+  "description": "",
+  "keywords": [
+    "next.js",
+    "eslint",
+    "prettier",
+    "tailwindcss"
+  ],
+  "license": "MIT",
+  "author": "Ryel Banfield",
+  "main": "dist/index.js",
+  "bin": {
+    "next-r1": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "deploy": "tsc && npm publish"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}
